@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Recommended</div>
+        <div class="nav-item">More</div>
+    </nav>
+        
+    <style>
+        nav {
+            background-color: #4aed6d;
+            overflow: hidden;
+        }
+        nav .nav-item {
+            float: left;
+            padding: 14px 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 18px;
+            cursor: default;
+        }
+        nav .nav-item:hover {
+            background-color: #26ac1a;
+            color: rgb(93, 137, 59);
+        }
+        nav::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</body>
+</html>
